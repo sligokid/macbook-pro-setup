@@ -1,7 +1,7 @@
 # macbook-pro-setup
 
 # Homebrew
-https://brew.sh
+https://brew.sh  
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # (Keep in Dock)
@@ -27,39 +27,40 @@ $ brew cask install slack
 https://www.pulsesecure.net/trynow/client-download/#top
 
 # Java 8
-$ brew tap caskroom/versions
+$ brew tap caskroom/versions  
 $ brew cask install java8
 
 # Maven
 $ brew install maven
 
 # Intellij
-$ brew cask install intellij-idea-ce
+$ brew cask install intellij-idea-ce (Community Edition)  
+$ bres cask install intellij-idea (Licenced Version)
 
 # Node
-brew install npm
+$ brew install npm
 
 # Git bash completion
-brew install git bash-completion
+$ brew install git bash-completion
 
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
-git config --global alias.co checkout
-git config --global apply.whitespace nowarn
+git config --global user.name "Your Name"  
+git config --global user.email "you@example.com"  
+git config --global alias.co checkout  
+git config --global apply.whitespace nowarn  
 
 # Git bash prompt
-brew search bash-git-prompt
-ie.
-(master↑3|✚1): on branch master, ahead of remote by 3 commits, 1 file changed but not staged
-(status|●2): on branch status, 2 files staged
-(master|✚7…): on branch master, 7 files changed, some files untracked
+__brew intstall bash-git-prompt__  
+examples:  
+(master↑3|✚1): on branch master, ahead of remote by 3 commits, 1 file changed but not staged  
+(status|●2): on branch status, 2 files staged  
+(master|✚7…): on branch master, 7 files changed, some files untracked  
 (master|✖2✚3): on branch master, 2 conflicts, 3 files changed
-(master|⚑2): on branch master, 2 stash entries
-(experimental↓2↑3|✔): on branch experimental; your branch has diverged by 3 commits, remote by 2 commits; the repository is otherwise clean
+(master|⚑2): on branch master, 2 stash entries  
+(experimental↓2↑3|✔): on branch experimental; your branch has diverged by 3 commits, remote by 2 commits; the repository is otherwise clean  
 (:70c2952|✔): not on any branch; parent commit has hash 70c2952; the repository is otherwise clean
 
 # Postgres (install only)
-brew install postgresql
+$ brew install postgresql
 
 # Wget
 $ brew install wget
