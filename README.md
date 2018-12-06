@@ -19,6 +19,9 @@ $ brew cask install google-chrome
 
 # docker
 $ brew cask install docker
+$ sudo mkdir /srv/docker  
+$ sudo chown /srv/docker $USER
+# add /srv/docker to docker->preferneces->file sharing
 
 # slack (sign in with okta)
 $ brew cask install slack
