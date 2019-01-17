@@ -79,7 +79,11 @@ echo "syntax on" > ~/.vimrc
 # Amazon Music
 brew cask install amazon-music
 
-# dotfiles couresy of AWS Randall Hunt
+# Evernote
+brew cask install evernote
+
+# 
+# dotfiles courtesy of AWS Randall Hunt
 $ git clone https://github.com/sligokid/dotfiles
 
 # 
