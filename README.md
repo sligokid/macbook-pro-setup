@@ -86,4 +86,5 @@ brew cask install evernote
 # dotfiles courtesy of AWS Randall Hunt
 $ git clone https://github.com/sligokid/dotfiles
 
-# 
+# Xcode https://github.com/nodejs/node-gyp#on-macos
+$ xcode-select --install
