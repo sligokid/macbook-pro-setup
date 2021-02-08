@@ -36,10 +36,8 @@ $ brew tap caskroom/versions
 $ brew cask install java8
 
 OR 
-$ sdk install java 8.0.282.hs-adpt
-
 curl -s "https://get.sdkman.io" | bash
-
+$ sdk install java 8.0.282.hs-adpt
 
 # Maven
 $ brew install maven
