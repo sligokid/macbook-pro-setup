@@ -45,8 +45,9 @@ https://www.pulsesecure.net/trynow/client-download/#top
 
 # Java 8
 ```
-brew tap caskroom/versions  
-brew cask install java8
+curl -s "https://get.sdkman.io" | bash
+sdk install java 8.0.282.hs-adpt
+
 ```
 OR (preferred)
 ```
