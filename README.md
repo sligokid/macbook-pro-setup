@@ -130,6 +130,13 @@ echo "syntax on" > ~/.vimrc
 ```
 brew cask install evernote
 ```
+# Google cloud SDK
+```
+brew install --cask google-cloud-sdk
+gcloud init
+sudo gcloud alpha compute config-ssh
+sudo gcloud beta compute config-ssh
+```
 
 # 
 # dotfiles courtesy of AWS Randall Hunt
