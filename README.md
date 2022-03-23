@@ -148,3 +148,8 @@ git clone https://github.com/sligokid/dotfiles
 ```
 xcode-select --install
 ```
+OR reinstall
+```
+sudo rm -rf /Library/Developer/CommandLineTools
+xcode-select --install
+``` 
