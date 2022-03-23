@@ -137,6 +137,10 @@ gcloud init
 sudo gcloud alpha compute config-ssh
 sudo gcloud beta compute config-ssh
 ```
+Or reinstall
+```
+brew reinstall --cask google-cloud-sdk
+```
 
 # 
 # dotfiles courtesy of AWS Randall Hunt
