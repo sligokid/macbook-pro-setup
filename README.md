@@ -5,54 +5,42 @@ https://brew.sh
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-# (Keep in Dock)
-# iterm2
+
+# Misc
 ```
-brew cask install iterm2
+brew install --cask iterm2
+brew install --cask telegram
+brew install --cask google-chrome
+brew install --cask brave-browser
+brew install --cask sublime-text
+brew install --cask evernote
 ```
 
-# spectacle (preferences -> enable on startup)
+# spectacle (preferences -> launch spectacle on login)
 ```
-brew cask install spectacle
-```
-
-# sublime-text
-```
-brew cask install sublime-text
-```
-
-# chrome (Use Brave!!)
-```
-brew cask install google-chrome
+brew install --cask spectacle
 ```
 
 # docker
 ```
-brew cask install docker
-sudo mkdir /srv/docker  
-sudo chown /srv/docker $USER
-add /srv/docker to docker->preferneces->file sharing
+brew install --cask docker
+--sudo mkdir /srv/docker  
+--sudo chown /srv/docker $USER
+--add /srv/docker to docker->preferences->file sharing
 brew install docker-compose
+mkdir -p ~/.docker/cli-plugins
+ln -sfn /opt/homebrew/opt/docker-compose/bin/docker-compose ~/.docker/cli-plugins/docker-compose 
 ```
 
 # slack (sign in with okta)
 ```
-brew cask install slack
+brew install --cask slack
 ```
-
-# pulse
-https://www.pulsesecure.net/trynow/client-download/#top
 
 # Java 8
 ```
 curl -s "https://get.sdkman.io" | bash
-sdk install java 8.0.282.hs-adpt
-
-```
-OR (preferred)
-```
-curl -s "https://get.sdkman.io" | bash
-sdk install java 8.0.282.hs-adpt
+sdk install java 8.0.332-zulu
 ```
 
 # Maven
@@ -60,23 +48,27 @@ sdk install java 8.0.282.hs-adpt
 brew install maven
 ```
 
-# Intellij
-```
-brew cask install intellij-idea-ce (Community Edition)  
-brew cask install intellij-idea (Licenced Version)
-```
-
 # Node
-```
-brew install npm
-```
-
-OR (preferred)
 
 ```
 brew install nvm
-nvm install 12.19.0 
-nvm use 12.19.0 
+nvm install lts/gallium && nvm alias default lts/gallium && nvm use default
+npm i -g install npm eslint flow-bin yarn
+```
+
+
+# Intellij
+```
+https://www.jetbrains.com/toolbox-app/download/download-thanks.html?platform=mac
+- IntelliJ
+- WebStrom
+- Datagrip
+
+OR
+
+brew install --cask intellij-idea-ce (Community Edition)  
+brew install --cask ntellij-idea (Licenced Version)
+
 ```
 
 # Git bash completion
@@ -94,7 +86,7 @@ git config --global apply.whitespace nowarn
 
 # Git bash prompt
 ```
-brew intstall bash-git-prompt
+brew install bash-git-prompt
 ```
 
 examples:  
@@ -128,7 +120,7 @@ echo "syntax on" > ~/.vimrc
 
 # Evernote
 ```
-brew cask install evernote
+
 ```
 # Google cloud SDK
 ```
