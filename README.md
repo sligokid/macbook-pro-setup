@@ -14,7 +14,17 @@ brew install --cask google-chrome
 brew install --cask brave-browser
 brew install --cask sublime-text
 brew install --cask evernote
+brew install --cask sourcetree
+brew install --cask atom
+brew install --cask skype
+brew install --cask spotify
+brew install --cask insomnia
+brew install --cask obsidian
 ```
+
+# 1Password 
+https://1password.com/downloads/mac/
+Add Brave plugin
 
 # spectacle (preferences -> launch spectacle on login)
 ```
