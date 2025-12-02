@@ -24,7 +24,7 @@ brew install --cask obsidian
 
 # 1Password 
 https://1password.com/downloads/mac/
-Add Brave plugin
+Add Brave 1 Password Extension
 
 # spectacle (preferences -> launch spectacle on login)
 ```
